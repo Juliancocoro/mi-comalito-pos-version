@@ -4,5 +4,11 @@
         "hora": "19:36:02",
         "total_vendido": 116.0,
         "tickets_pagados": 1
+    },
+    {
+        "fecha": "2026-01-07",
+        "hora": "19:54:05",
+        "total_vendido": 116.0,
+        "tickets_pagados": 1
     }
 ]
