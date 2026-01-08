@@ -1,0 +1,44 @@
+[
+    {
+        "fecha": "2025-12-26",
+        "hora": "21:02:13",
+        "total_vendido": 0.0,
+        "tickets_pagados": 0
+    },
+    {
+        "fecha": "2025-12-26",
+        "hora": "21:04:44",
+        "total_vendido": 67.0,
+        "tickets_pagados": 1
+    },
+    {
+        "fecha": "2025-12-27",
+        "hora": "16:32:03",
+        "total_vendido": 125.0,
+        "tickets_pagados": 1
+    },
+    {
+        "fecha": "2025-12-28",
+        "hora": "19:48:58",
+        "total_vendido": 15.0,
+        "tickets_pagados": 1
+    },
+    {
+        "fecha": "2026-01-04",
+        "hora": "12:44:21",
+        "total_vendido": 658.0,
+        "tickets_pagados": 2
+    },
+    {
+        "fecha": "2026-01-04",
+        "hora": "14:31:05",
+        "total_vendido": 0.0,
+        "tickets_pagados": 0
+    },
+    {
+        "fecha": "2026-01-04",
+        "hora": "17:06:20",
+        "total_vendido": 232.0,
+        "tickets_pagados": 1
+    }
+]
