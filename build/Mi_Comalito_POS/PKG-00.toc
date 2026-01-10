@@ -35,10 +35,6 @@
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
    'PYSOURCE'),
-  ('pyi_rth_pywintypes',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pywintypes.py',
-   'PYSOURCE'),
   ('pyi_rth_setuptools',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
@@ -50,6 +46,10 @@
   ('pyi_rth_multiprocessing',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_pywintypes',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\rthooks\\pyi_rth_pywintypes.py',
    'PYSOURCE'),
   ('pyi_rth_usb',
    'C:\\Users\\jochi\\Desktop\\cosas de '
@@ -65,10 +65,6 @@
   ('python313.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de python\\python313.dll',
    'BINARY'),
-  ('pywin32_system32\\pywintypes313.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\pywin32_system32\\pywintypes313.dll',
-   'BINARY'),
   ('numpy.libs\\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\numpy.libs\\msvcp140-a4c2229bdc2a2a630acdc095b4d86008.dll',
@@ -77,9 +73,9 @@
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\numpy.libs\\libscipy_openblas64_-9e3e5a4229c1ca39f10dc82bba9e2b2b.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\libEGL.dll',
+  ('pywin32_system32\\pywintypes313.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libEGL.dll',
+   'python\\Lib\\site-packages\\pywin32_system32\\pywintypes313.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\libGLESv2.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
@@ -89,73 +85,77 @@
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\opengl32sw.dll',
    'BINARY'),
+  ('PyQt5\\Qt5\\bin\\libEGL.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\libEGL.dll',
+   'BINARY'),
   ('PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\d3dcompiler_47.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qminimal.dll',
    'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qicns.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtga.dll',
+   'BINARY'),
   ('PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qico.dll',
    'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwbmp.dll',
+   'BINARY'),
   ('PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platformthemes\\qxdgdesktopportal.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qsvg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qgif.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwindows.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qoffscreen.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qtiff.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qjpeg.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\platforms\\qwebgl.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\generic\\qtuiotouchplugin.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\iconengines\\qsvgicon.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\plugins\\imageformats\\qwebp.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\plugins\\styles\\qwindowsvistastyle.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
@@ -213,10 +213,6 @@
   ('win32\\win32print.pyd',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\win32\\win32print.pyd',
-   'EXTENSION'),
-  ('win32\\_win32sysloader.pyd',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\win32\\_win32sysloader.pyd',
    'EXTENSION'),
   ('PIL\\_webp.cp313-win_amd64.pyd',
    'C:\\Users\\jochi\\Desktop\\cosas de '
@@ -317,6 +313,10 @@
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PIL\\_imagingft.cp313-win_amd64.pyd',
    'EXTENSION'),
+  ('win32\\_win32sysloader.pyd',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\win32\\_win32sysloader.pyd',
+   'EXTENSION'),
   ('PyQt5\\QtChart.pyd',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\QtChart.pyd',
@@ -337,63 +337,63 @@
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\QtWidgets.pyd',
    'EXTENSION'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
+  ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-time-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
   ('VCRUNTIME140.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de python\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-process-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-process-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+  ('api-ms-win-crt-conio-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-conio-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-convert-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-convert-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-heap-l1-1-0.dll',
+  ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-runtime-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-runtime-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
+  ('api-ms-win-crt-heap-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-environment-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-heap-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-stdio-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-string-l1-1-0.dll',
+  ('api-ms-win-crt-time-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-string-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-time-l1-1-0.dll',
    'BINARY'),
-  ('VCRUNTIME140_1.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de python\\VCRUNTIME140_1.dll',
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-math-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-utility-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de python\\VCRUNTIME140_1.dll',
    'BINARY'),
   ('api-ms-win-crt-private-l1-1-0.dll',
    'C:\\Program Files\\Eclipse '
@@ -403,17 +403,13 @@
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
-   'BINARY'),
   ('PyQt5\\Qt5\\bin\\MSVCP140.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\MSVCP140.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5Network.dll',
+  ('PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\VCRUNTIME140_1.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Gui.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
@@ -423,21 +419,25 @@
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Core.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+  ('PyQt5\\Qt5\\bin\\Qt5DBus.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
-   'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5Quick.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5DBus.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Svg.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Svg.dll',
    'BINARY'),
-  ('PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+  ('PyQt5\\Qt5\\bin\\Qt5Network.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5DBus.dll',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Network.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Quick.dll',
+   'BINARY'),
+  ('PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5WebSockets.dll',
    'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Widgets.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
@@ -456,12 +456,12 @@
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\Pythonwin\\mfc140u.dll',
    'BINARY'),
+  ('python3.dll',
+   'C:\\Users\\jochi\\Desktop\\cosas de python\\python3.dll',
+   'BINARY'),
   ('PyQt5\\Qt5\\bin\\Qt5Charts.dll',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\bin\\Qt5Charts.dll',
-   'BINARY'),
-  ('python3.dll',
-   'C:\\Users\\jochi\\Desktop\\cosas de python\\python3.dll',
    'BINARY'),
   ('ucrtbase.dll',
    'C:\\Program Files\\Eclipse '
@@ -483,299 +483,291 @@
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-crt-multibyte-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-core-file-l2-1-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-file-l2-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-2-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-sysinfo-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-fibers-l1-1-1.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-fibers-l1-1-1.dll',
-   'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-synch-l1-2-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-interlocked-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-1.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
    'BINARY'),
   ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-string-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-fibers-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-handle-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processenvironment-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-file-l1-2-0.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-file-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
+  ('api-ms-win-core-fibers-l1-1-1.dll',
    'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-libraryloader-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program Files\\Eclipse '
-   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-fibers-l1-1-1.dll',
    'BINARY'),
   ('api-ms-win-core-kernel32-legacy-l1-1-1.dll',
    'C:\\Program Files\\Eclipse '
    'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-kernel32-legacy-l1-1-1.dll',
    'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-fibers-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-fibers-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-sysinfo-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files\\Eclipse '
+   'Adoptium\\jdk-17.0.15.6-hotspot\\bin\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('aguas.json',
+   'C:\\Users\\jochi\\Downloads\\mi-comalito-pos-version-master\\mi-comalito-pos-version-master\\aguas.json',
+   'DATA'),
   ('background.jpg',
    'C:\\Users\\jochi\\Downloads\\mi-comalito-pos-version-master\\mi-comalito-pos-version-master\\background.jpg',
    'DATA'),
   ('comidas.jpg',
    'C:\\Users\\jochi\\Downloads\\mi-comalito-pos-version-master\\mi-comalito-pos-version-master\\comidas.jpg',
    'DATA'),
+  ('guisos.json',
+   'C:\\Users\\jochi\\Downloads\\mi-comalito-pos-version-master\\mi-comalito-pos-version-master\\guisos.json',
+   'DATA'),
   ('loguito.jpeg',
    'C:\\Users\\jochi\\Downloads\\mi-comalito-pos-version-master\\mi-comalito-pos-version-master\\loguito.jpeg',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+  ('postres.json',
+   'C:\\Users\\jochi\\Downloads\\mi-comalito-pos-version-master\\mi-comalito-pos-version-master\\postres.json',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+  ('refrescos.json',
+   'C:\\Users\\jochi\\Downloads\\mi-comalito-pos-version-master\\mi-comalito-pos-version-master\\refrescos.json',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'python\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\top_level.txt',
    'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\LICENSE',
+   'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\METADATA',
-   'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\RECORD',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+  ('setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\INSTALLER',
+   'python\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.0.0.dist-info\\REQUESTED',
    'DATA'),
   ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
    'ipsum.txt',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_it.qm',
+  ('PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_it.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_hu.qm',
+  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_hu.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ca.qm',
+  ('PyQt5\\Qt5\\translations\\qt_ca.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ca.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_fa.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fa.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_ar.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ar.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_tr.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_tr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_gl.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_gl.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_tr.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_tr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_de.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_de.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_fr.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_it.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_it.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_ko.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ko.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_cs.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_cs.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_ja.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ja.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_en.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_en.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_gd.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gd.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_es.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_es.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_hu.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_hu.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_da.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_da.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_fr.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_fr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_es.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_es.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_pl.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_pl.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ca.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_gl.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gl.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+  ('PyQt5\\Qt5\\translations\\qt_fr.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_CN.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_help_ar.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ar.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_de.qm',
+  ('PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_de.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+  ('PyQt5\\Qt5\\translations\\qtbase_fi.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fi.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+  ('PyQt5\\Qt5\\translations\\qt_cs.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ar.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_pt.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pt.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ko.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ko.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fa.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fa.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_da.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_da.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_it.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_it.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_en.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_es.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ja.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_es.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_es.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_en.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_tr.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_bg.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_bg.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_pl.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_pl.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_pl.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_uk.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
@@ -785,145 +777,69 @@
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ko.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_lt.qm',
+  ('PyQt5\\Qt5\\translations\\qt_help_fr.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lt.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_fr.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_ja.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ja.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_zh_TW.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_pt.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pt.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_ru.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ru.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_bg.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_bg.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_sk.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sk.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_cs.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_cs.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_fi.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_fi.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_ca.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ca.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_sl.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sl.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_sv.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sv.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_it.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_it.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_fi.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fi.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_hu.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_hu.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_pl.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_pl.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_uk.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_uk.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_uk.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_uk.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_zh_TW.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_en.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_en.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_bg.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_bg.qm',
-   'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_he.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_he.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_fr.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_da.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_da.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_bg.qm',
+  ('PyQt5\\Qt5\\translations\\qtbase_ca.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_bg.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ca.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+  ('PyQt5\\Qt5\\translations\\qtbase_da.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_da.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
+  ('PyQt5\\Qt5\\translations\\qt_ar.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_zh_CN.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ar.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_lv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_pl.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_pl.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_help_ca.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ca.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_help_ru.qm',
-   'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ru.qm',
-   'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_help_sl.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ru.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sv.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sv.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_de.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_de.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qt_lv.qm',
+  ('PyQt5\\Qt5\\translations\\qt_he.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_he.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_bg.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_bg.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qt_zh_TW.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
@@ -933,29 +849,125 @@
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_es.qm',
    'DATA'),
-  ('PyQt5\\Qt5\\translations\\qtbase_he.qm',
+  ('PyQt5\\Qt5\\translations\\qt_help_cs.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_he.qm',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_en.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_hu.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_hu.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_hu.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lv.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_gd.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_ja.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ja.qm',
    'DATA'),
   ('PyQt5\\Qt5\\translations\\qtbase_ko.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_ko.qm',
    'DATA'),
-  ('numpy-2.3.5.dist-info\\INSTALLER',
+  ('PyQt5\\Qt5\\translations\\qt_help_de.qm',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\numpy-2.3.5.dist-info\\INSTALLER',
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_de.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sl.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_it.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_it.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_sk.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_sk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_it.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_gd.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_tr.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_tr.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_ru.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_ru.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_gl.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_cs.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_lt.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_lt.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_help_uk.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_help_uk.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_ja.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_ja.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qt_fi.qm',
+   'DATA'),
+  ('PyQt5\\Qt5\\translations\\qtbase_uk.qm',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\PyQt5\\Qt5\\translations\\qtbase_uk.qm',
    'DATA'),
   ('numpy-2.3.5.dist-info\\entry_points.txt',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\numpy-2.3.5.dist-info\\entry_points.txt',
    'DATA'),
-  ('numpy-2.3.5.dist-info\\RECORD',
+  ('numpy-2.3.5.dist-info\\DELVEWHEEL',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\numpy-2.3.5.dist-info\\RECORD',
+   'python\\Lib\\site-packages\\numpy-2.3.5.dist-info\\DELVEWHEEL',
    'DATA'),
   ('numpy-2.3.5.dist-info\\WHEEL',
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\numpy-2.3.5.dist-info\\WHEEL',
+   'DATA'),
+  ('numpy-2.3.5.dist-info\\INSTALLER',
+   'C:\\Users\\jochi\\Desktop\\cosas de '
+   'python\\Lib\\site-packages\\numpy-2.3.5.dist-info\\INSTALLER',
    'DATA'),
   ('numpy-2.3.5.dist-info\\LICENSE.txt',
    'C:\\Users\\jochi\\Desktop\\cosas de '
@@ -965,9 +977,9 @@
    'C:\\Users\\jochi\\Desktop\\cosas de '
    'python\\Lib\\site-packages\\numpy-2.3.5.dist-info\\METADATA',
    'DATA'),
-  ('numpy-2.3.5.dist-info\\DELVEWHEEL',
+  ('numpy-2.3.5.dist-info\\RECORD',
    'C:\\Users\\jochi\\Desktop\\cosas de '
-   'python\\Lib\\site-packages\\numpy-2.3.5.dist-info\\DELVEWHEEL',
+   'python\\Lib\\site-packages\\numpy-2.3.5.dist-info\\RECORD',
    'DATA'),
   ('base_library.zip',
    'C:\\Users\\jochi\\Downloads\\mi-comalito-pos-version-master\\mi-comalito-pos-version-master\\build\\Mi_Comalito_POS\\base_library.zip',

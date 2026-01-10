@@ -1,13 +1,30 @@
 import json
-from pathlib import Path
+import sys
+import os
 
-ARCHIVO = Path("aguas.json")
+
+def resource_path(relative_path):
+    """Obtiene la ruta correcta para recursos empaquetados"""
+    if hasattr(sys, '_MEIPASS'):
+        return os.path.join(sys._MEIPASS, relative_path)
+    return os.path.join(os.path.abspath("."), relative_path)
+
+
+ARCHIVO = "aguas.json"
 
 
 def cargar_aguas():
-    if ARCHIVO.exists():
+    # Primero buscar en directorio actual (para guardar cambios)
+    if os.path.exists(ARCHIVO):
         with open(ARCHIVO, "r", encoding="utf-8") as f:
             return json.load(f)
+    
+    # Si no existe, buscar en recursos empaquetados
+    ruta = resource_path(ARCHIVO)
+    if os.path.exists(ruta):
+        with open(ruta, "r", encoding="utf-8") as f:
+            return json.load(f)
+    
     return {}
 
 

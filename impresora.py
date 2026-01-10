@@ -1,7 +1,7 @@
 """
 Módulo de impresión para tickets térmicos ESC/POS
 Soporta impresoras USB, de red y Windows
-Si no hay impresora, no genera errores
+Incluye soporte para imprimir imágenes/logos
 """
 
 import os
@@ -227,6 +227,110 @@ class PrinterManager:
         """Verifica si hay una impresora conectada"""
         return self.printer is not None
 
+    def _image_to_escpos_bits(self, image_path, max_width=384):
+        """
+        Convierte una imagen a comandos ESC/POS de bits
+        
+        La impresora POS58 tiene 384 puntos de ancho (58mm)
+        Cada byte representa 8 puntos horizontales
+        """
+        try:
+            from PIL import Image
+            
+            # Cargar imagen
+            img = Image.open(image_path)
+            
+            # Convertir a escala de grises
+            img = img.convert('L')
+            
+            # Calcular nuevo tamaño manteniendo proporción
+            # Máximo 384 pixeles de ancho para impresora de 58mm
+            width = min(img.width, max_width)
+            ratio = width / img.width
+            height = int(img.height * ratio)
+            
+            # Redimensionar
+            img = img.resize((width, height), Image.LANCZOS)
+            
+            # Convertir a blanco y negro puro (1 bit)
+            # Umbral: pixeles < 128 = negro (1), >= 128 = blanco (0)
+            img = img.point(lambda x: 0 if x < 128 else 255, '1')
+            
+            # Asegurar que el ancho sea múltiplo de 8
+            width_bytes = (width + 7) // 8
+            new_width = width_bytes * 8
+            
+            if new_width != width:
+                # Crear nueva imagen con ancho ajustado
+                new_img = Image.new('1', (new_width, height), 1)  # 1 = blanco
+                new_img.paste(img, (0, 0))
+                img = new_img
+                width = new_width
+            
+            # Generar datos de imagen en formato ESC/POS
+            # Usamos el comando GS v 0 (raster bit image)
+            
+            width_bytes = width // 8
+            height_pixels = height
+            
+            # Comando: GS v 0 m xL xH yL yH [datos]
+            # m = 0 (modo normal)
+            # xL xH = ancho en bytes (little endian)
+            # yL yH = alto en pixeles (little endian)
+            
+            cmd = bytearray()
+            
+            # Inicializar impresora
+            cmd.extend(b'\x1b\x40')  # ESC @ - Initialize
+            
+            # Centrar imagen
+            cmd.extend(b'\x1b\x61\x01')  # ESC a 1 - Center
+            
+            # Comando GS v 0
+            cmd.extend(b'\x1d\x76\x30\x00')  # GS v 0 m (m=0)
+            
+            # Ancho en bytes (little endian)
+            cmd.append(width_bytes & 0xFF)
+            cmd.append((width_bytes >> 8) & 0xFF)
+            
+            # Alto en pixeles (little endian)
+            cmd.append(height_pixels & 0xFF)
+            cmd.append((height_pixels >> 8) & 0xFF)
+            
+            # Datos de imagen
+            # En modo '1' de PIL: 0 = negro, 255 = blanco
+            # En ESC/POS: 1 = punto negro, 0 = punto blanco
+            # Entonces invertimos
+            
+            pixels = list(img.getdata())
+            
+            for y in range(height):
+                for x_byte in range(width_bytes):
+                    byte_val = 0
+                    for bit in range(8):
+                        x = x_byte * 8 + bit
+                        pixel_index = y * width + x
+                        
+                        if pixel_index < len(pixels):
+                            # PIL '1' mode: 0 = negro, 255 = blanco
+                            # ESC/POS: 1 = imprimir (negro), 0 = no imprimir (blanco)
+                            if pixels[pixel_index] == 0:  # Negro en PIL
+                                byte_val |= (1 << (7 - bit))  # Bit 1 = imprimir
+                    
+                    cmd.append(byte_val)
+            
+            # Salto de línea después de imagen
+            cmd.extend(b'\n')
+            
+            return bytes(cmd)
+            
+        except ImportError:
+            print("PIL no está instalado")
+            return None
+        except Exception as e:
+            print(f"Error procesando imagen: {e}")
+            return None
+
     def _print_windows_raw(self, data):
         """Imprime datos raw directamente a impresora Windows"""
         try:
@@ -272,8 +376,82 @@ class PrinterManager:
             print(f"Error imprimiendo: {e}")
             raise e
 
+    def _generate_ticket_with_logo(self, items, total, ticket_num=None):
+        """Genera ticket completo con logo en formato ESC/POS"""
+        now = datetime.now()
+        
+        data = bytearray()
+        
+        # Inicializar impresora
+        data.extend(b'\x1b\x40')  # ESC @ - Initialize
+        
+        # Intentar agregar logo
+        logo_path = resource_path("loguito.jpeg")
+        if os.path.exists(logo_path):
+            logo_data = self._image_to_escpos_bits(logo_path, max_width=300)
+            if logo_data:
+                data.extend(logo_data)
+        else:
+            # Si no hay logo, usar texto
+            data.extend(b'\x1b\x61\x01')  # Centrar
+            data.extend(b'\x1b\x21\x30')  # Doble alto y ancho
+            data.extend("MI COMALITO\n".encode('cp437', errors='replace'))
+            data.extend(b'\x1b\x21\x00')  # Normal
+            data.extend("Gorditas y Algo Mas..\n".encode('cp437', errors='replace'))
+        
+        # Centrar texto
+        data.extend(b'\x1b\x61\x01')
+        
+        data.extend(("=" * 32 + "\n").encode('cp437'))
+        data.extend(f"Fecha: {now.strftime('%d/%m/%Y')}\n".encode('cp437'))
+        data.extend(f"Hora:  {now.strftime('%H:%M:%S')}\n".encode('cp437'))
+        
+        if ticket_num:
+            data.extend(f"Ticket: #{ticket_num}\n".encode('cp437'))
+        
+        data.extend(("-" * 32 + "\n").encode('cp437'))
+        
+        # Alinear a la izquierda para productos
+        data.extend(b'\x1b\x61\x00')
+        
+        for item in items:
+            qty = item.get("qty", 1)
+            categoria = item.get("categoria", "")
+            tipo = item.get("tipo", "")
+            subtotal = item.get("subtotal", 0)
+            
+            producto = f"{categoria}"
+            if tipo:
+                producto += f" - {tipo}"
+            
+            data.extend(f"{qty} x {producto}\n".encode('cp437', errors='replace'))
+            # Alinear derecha para precio
+            data.extend(b'\x1b\x61\x02')
+            data.extend(f"${subtotal:.2f}\n".encode('cp437'))
+            data.extend(b'\x1b\x61\x00')
+        
+        data.extend(("-" * 32 + "\n").encode('cp437'))
+        
+        # Total en grande y a la derecha
+        data.extend(b'\x1b\x61\x02')
+        data.extend(b'\x1b\x21\x30')  # Doble
+        data.extend(f"TOTAL: ${total:.2f}\n".encode('cp437'))
+        data.extend(b'\x1b\x21\x00')  # Normal
+        
+        # Centrar para despedida
+        data.extend(b'\x1b\x61\x01')
+        data.extend(("=" * 32 + "\n").encode('cp437'))
+        data.extend("GRACIAS POR SU COMPRA!\n".encode('cp437'))
+        data.extend(("=" * 32 + "\n").encode('cp437'))
+        
+        # Espacios y corte
+        data.extend(b'\n\n\n')
+        data.extend(b'\x1d\x56\x00')  # Cortar papel
+        
+        return bytes(data)
+
     def _generate_ticket_text(self, items, total, ticket_num=None):
-        """Genera el texto del ticket"""
+        """Genera el texto del ticket (sin logo, solo texto)"""
         now = datetime.now()
         
         lines = []
@@ -367,8 +545,15 @@ class PrinterManager:
 
         try:
             if self.printer_type == "windows":
-                text = self._generate_ticket_text(items, total, ticket_num)
-                return self._print_windows_raw(text)
+                # Intentar con logo primero
+                try:
+                    data = self._generate_ticket_with_logo(items, total, ticket_num)
+                    return self._print_windows_raw(data)
+                except Exception as e:
+                    print(f"Error con logo, usando texto: {e}")
+                    # Si falla, usar solo texto
+                    text = self._generate_ticket_text(items, total, ticket_num)
+                    return self._print_windows_raw(text)
             else:
                 # Método ESC/POS para USB y Red
                 p = self.printer

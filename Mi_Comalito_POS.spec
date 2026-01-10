@@ -5,7 +5,7 @@ a = Analysis(
     ['main.py'],
     pathex=[],
     binaries=[],
-    datas=[('background.jpg', '.'), ('comidas.jpg', '.'), ('loguito.jpeg', '.')],
+    datas=[('background.jpg', '.'), ('comidas.jpg', '.'), ('loguito.jpeg', '.'), ('aguas.json', '.'), ('refrescos.json', '.'), ('guisos.json', '.'), ('postres.json', '.')],
     hiddenimports=['win32print', 'win32ui'],
     hookspath=[],
     hooksconfig={},
